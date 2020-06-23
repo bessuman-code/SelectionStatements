@@ -19,7 +19,7 @@ namespace SelectionStatements
 
             Console.WriteLine("What is your favorite subject?");
             string input = Console.ReadLine();
-            string callSwitchCase = SwitchCase(input);
+            string callSwitchCase = SwitchCase(input).ToLower();
             Console.WriteLine($"{callSwitchCase}");
 
 
