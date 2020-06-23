@@ -22,9 +22,13 @@ namespace SelectionStatements
             string callSwitchCase = SwitchCase(input).ToLower();
             Console.WriteLine($"{callSwitchCase}");
 
+            //Infered typing, interpolation and ternary operator
+            var answer = 4;
+            var response = answer < 9 ? answer + " is less than nine" : answer + " greater than or equal to nine";
+
+            Console.WriteLine(response);
 
 
-            
         }
         public static string IfState(int favNumb, int userInput)
         {
